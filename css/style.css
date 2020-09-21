@@ -1,0 +1,115 @@
+/* general setups */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-image: url("../img/background.jpg");
+  background-repeat: no-repeat;
+}
+
+.container {
+  width: 70%;
+  margin-left: 150px;
+}
+
+hr{
+  color: white;
+  margin-top: 5px;
+  margin-bottom: 7px;
+}
+
+header{
+  position: relative;
+}
+
+/* logo */
+.namelogo{
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+  position: absolute;
+  bottom: 50px;
+  left: 160px;
+}
+
+.logo{
+  margin-top: 20px;
+width: 150px
+}
+
+/* unread emails sentence and number */
+#unread-number-sentence{
+  font-size: 25px;
+  color: white ;
+  font-weight: normal;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.unread-number{
+  color: white;
+  font-size: 30px;
+  background-color: orange;
+  border: 5px solid orange;
+  border-radius: 40px;
+  padding: 10px;
+}
+
+/* emails start */
+.unreademail{
+  background-color: lightgrey;
+  border: 1px solid black;
+}
+.reademail{
+  background-color: white;
+  border: 1px solid black;
+}
+
+.object{
+  font-size: 30px;
+  display: inline-block;
+  color:black;
+  width: 40%
+}
+
+.content{
+  font-size: 25px;
+  display: inline-block;
+  color: grey;
+  width: 50%
+}
+
+#star{
+  font-size: 30px;
+}
+
+/* inputs */
+input[type=checkbox]{
+  margin-left: 5px;
+  width: 20px;
+}
+
+input[type=text]{
+width: 200px;
+height: 30px;
+}
+
+input[type=submit]{
+height: 30px;
+width: 50px;
+border-radius: 5px
+}
+
+/* end */
+.footer-gmail{
+  font-size: 30px;
+  text-align: center;
+}
+
+#powered{
+  font-family: cursive;
+  font-size: 15px
+}
